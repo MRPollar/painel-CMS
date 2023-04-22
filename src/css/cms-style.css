@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+   background-color: rgb(225,225,225);
+}
+
+.container{
+   max-width: 1180px;
+}
+
+.panel-header{
+   color: white;
+   padding: 77px 0 20px 0;
+   background-color: #212529;
+}
+
+.panel-header p{
+   margin: 0;
+   text-align: right;
+}
+
+section.panel-bread{
+   padding: 30px;
+}
+
+.bread{
+   background-color: white;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+.panel{
+   overflow: hidden;
+   border-radius: 6px;
+   background-color: white;
+   margin-bottom: 20px;
+}
+
+.panel-heading{
+   background-color: #0d6efd;
+}
+
+.panel-heading .panel-title{
+   font-weight: normal;
+   color: white;
+   font-size: 20px;
+   padding: 9px 20px
+}
+
+.panel-body{
+   padding: 9px 20px;
+}
+
+@media (max-width: 992px){
+   .panel{
+      margin-top: 30px;
+   }
+}
+
+
+@media (max-width: 768px){
+   .panel-header h2{
+      margin-bottom: 15px;
+   }
+
+   .panel-header p{
+      margin: 0;
+      text-align: left;
+   }
+}
